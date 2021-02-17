@@ -1,0 +1,13 @@
+# Group 1
+User-agent: *
+Allow: /
+Disallow: /assets/
+
+# Block no-content images
+User-agent: Googlebot-images
+Disallow: /images/pic01.png
+Disallow: /images/pic02.png
+Disallow: /images/pic03.png
+Disallow: /images/pic04.png
+
+Sitemap: https://www.subscribeandride.com/sitemap.txt
